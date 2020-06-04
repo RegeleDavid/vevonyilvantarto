@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 30, 2019, 12:58:01 PM
+    Author     : Y879
+*/
+
+.root{
+    -fx-background-color: rgba(195,215,156,0.6);
+    /*-fx-font-family:"Calibri Light";*/
+    
+    
+    
+}
+
+.table-view {
+    
+}
+
+
+.table-row-cell {
+    /*-fx-background-color: rgba(0,0,0,0.7);
+    -fx-font-weight:bold;
+    -fx-text-fill: whitesmoke;*/
+    
+}
+
+
+
+
+.table-row-cell{
+    
+    /*-fx-text-fill: whitesmoke;*/
+}
+
+.table-column {
+    -fx-alignment: CENTER;
+     /*-fx-text-fill: whitesmoke;*/
+}
+.gomb{
+    -fx-background-color: rgba(116,161,56,1);
+    -fx-text-fill: white;
+    
+    
+    
+}

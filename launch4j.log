@@ -1,0 +1,357 @@
+
+
+Version:	3.12
+CmdLine:	D:\adatok\progatozas\java\TableViewWithFilterJavaFX\TableViewWithFilterJavaFX.exe --l4j-debug
+WOW64:		yes
+Working dir:	D:\adatok\progatozas\java\TableViewWithFilterJavaFX\.
+Java min ver:	1.000.001
+Java max ver:	
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files\Java\jre1.8.0_151\bin\javaw.exe (OK)
+Match:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_151
+Check launcher:	C:\Program Files\Java\jre1.8.0_151\bin\javaw.exe (OK)
+Match:		1.008.000_151
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8
+Ignore:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_101
+Ignore:		1.008.000_101
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_151
+Ignore:		1.008.000_151
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Runtime used:	1.008.000_151 (64-bit)
+Main class:	javafxtableviewaddrows.JavaFXTableViewAddRows
+Add classpath:	lib\sqlite-jdbc-3.30.1.jar
+Add classpath:	lib\SparseBitSet-1.2.jar
+Add classpath:	lib\activation-1.1.1.jar
+Add classpath:	lib\commons-codec-1.13.jar
+Add classpath:	lib\commons-collections4-4.4.jar
+Add classpath:	lib\commons-compress-1.19.jar
+Add classpath:	lib\commons-logging-1.2.jar
+Add classpath:	lib\commons-math3-3.6.1.jar
+Add classpath:	lib\curvesapi-1.06.jar
+Add classpath:	lib\jaxb-api-2.3.1.jar
+Add classpath:	lib\jaxb-core-2.3.0.1.jar
+Add classpath:	lib\jaxb-impl-2.3.2.jar
+Add classpath:	lib\junit-4.12.jar
+Add classpath:	lib\log4j-1.2.17.jar
+Add classpath:	lib\poi-4.1.2.jar
+Add classpath:	lib\poi-examples-4.1.2.jar
+Add classpath:	lib\poi-excelant-4.1.2.jar
+Add classpath:	lib\poi-ooxml-4.1.2.jar
+Add classpath:	lib\poi-ooxml-schemas-4.1.2.jar
+Add classpath:	lib\poi-scratchpad-4.1.2.jar
+Add classpath:	lib\xmlbeans-3.1.0.jar
+Launcher:	C:\Program Files\Java\jre1.8.0_151\bin\javaw.exe
+Launcher args:	-classpath "D:\adatok\progatozas\java\TableViewWithFilterJavaFX\TableViewWithFilterJavaFX.exe;lib\sqlite-jdbc-3.30.1.jar;lib\SparseBitSet-1.2.jar;lib\activation-1.1.1.jar;lib\commons-codec-1.13.jar;lib\commons-collections4-4.4.jar;lib\commons-compress-1.19.jar;lib\commons-logging-1.2.jar;lib\commons-math3-3.6.1.jar;lib\curvesapi-1.06.jar;lib\jaxb-api-2.3.1.jar;lib\jaxb-core-2.3.0.1.jar;lib\jaxb-impl-2.3.2.jar;lib\junit-4.12.jar;lib\log4j-1.2.17.jar;lib\poi-4.1.2.jar;lib\poi-examples-4.1.2.jar;lib\poi-excelant-4.1.2.jar;lib\poi-ooxml-4.1.2.jar;lib\poi-ooxml-schemas-4.1.2.jar;lib\poi-scratchpad-4.1.2.jar;lib\xmlbeans-3.1.0.jar" javafxtableviewaddrows.JavaFXTableViewAddRows
+Args length:	679/32768 chars
+Exit code:	0
+
+
+Version:	3.12
+CmdLine:	D:\adatok\progatozas\java\TableViewWithFilterJavaFX\TableViewWithFilterJavaFX.exe --l4j-debug
+WOW64:		yes
+Working dir:	D:\adatok\progatozas\java\TableViewWithFilterJavaFX\.
+Java min ver:	1.000.001
+Java max ver:	
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files\Java\jre1.8.0_151\bin\javaw.exe (OK)
+Match:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_151
+Check launcher:	C:\Program Files\Java\jre1.8.0_151\bin\javaw.exe (OK)
+Match:		1.008.000_151
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8
+Ignore:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_101
+Ignore:		1.008.000_101
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_151
+Ignore:		1.008.000_151
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Runtime used:	1.008.000_151 (64-bit)
+Main class:	javafxtableviewaddrows.JavaFXTableViewAddRows
+Add classpath:	lib\sqlite-jdbc-3.30.1.jar
+Add classpath:	bin\lib\SparseBitSet-1.2.jar
+Add classpath:	lib\activation-1.1.1.jar
+Add classpath:	lib\commons-codec-1.13.jar
+Add classpath:	lib\commons-collections4-4.4.jar
+Add classpath:	lib\commons-compress-1.19.jar
+Add classpath:	lib\commons-logging-1.2.jar
+Add classpath:	lib\commons-math3-3.6.1.jar
+Add classpath:	lib\curvesapi-1.06.jar
+Add classpath:	lib\jaxb-api-2.3.1.jar
+Add classpath:	lib\jaxb-core-2.3.0.1.jar
+Add classpath:	lib\jaxb-impl-2.3.2.jar
+Add classpath:	lib\junit-4.12.jar
+Add classpath:	lib\log4j-1.2.17.jar
+Add classpath:	lib\poi-4.1.2.jar
+Add classpath:	lib\poi-examples-4.1.2.jar
+Add classpath:	lib\poi-excelant-4.1.2.jar
+Add classpath:	lib\poi-ooxml-4.1.2.jar
+Add classpath:	lib\poi-ooxml-schemas-4.1.2.jar
+Add classpath:	lib\poi-scratchpad-4.1.2.jar
+Add classpath:	lib\xmlbeans-3.1.0.jar
+Launcher:	C:\Program Files\Java\jre1.8.0_151\bin\javaw.exe
+Launcher args:	-classpath "D:\adatok\progatozas\java\TableViewWithFilterJavaFX\TableViewWithFilterJavaFX.exe;lib\sqlite-jdbc-3.30.1.jar;bin\lib\SparseBitSet-1.2.jar;lib\activation-1.1.1.jar;lib\commons-codec-1.13.jar;lib\commons-collections4-4.4.jar;lib\commons-compress-1.19.jar;lib\commons-logging-1.2.jar;lib\commons-math3-3.6.1.jar;lib\curvesapi-1.06.jar;lib\jaxb-api-2.3.1.jar;lib\jaxb-core-2.3.0.1.jar;lib\jaxb-impl-2.3.2.jar;lib\junit-4.12.jar;lib\log4j-1.2.17.jar;lib\poi-4.1.2.jar;lib\poi-examples-4.1.2.jar;lib\poi-excelant-4.1.2.jar;lib\poi-ooxml-4.1.2.jar;lib\poi-ooxml-schemas-4.1.2.jar;lib\poi-scratchpad-4.1.2.jar;lib\xmlbeans-3.1.0.jar" javafxtableviewaddrows.JavaFXTableViewAddRows
+Args length:	683/32768 chars
+Exit code:	0
+
+
+Version:	3.12
+CmdLine:	D:\adatok\progatozas\java\TableViewWithFilterJavaFX\TableViewWithFilterJavaFX.exe --l4j-debug
+WOW64:		yes
+Working dir:	D:\adatok\progatozas\java\TableViewWithFilterJavaFX\.
+Java min ver:	1.000.001
+Java max ver:	
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files\Java\jre1.8.0_151\bin\javaw.exe (OK)
+Match:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_151
+Check launcher:	C:\Program Files\Java\jre1.8.0_151\bin\javaw.exe (OK)
+Match:		1.008.000_151
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8
+Ignore:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_101
+Ignore:		1.008.000_101
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_151
+Ignore:		1.008.000_151
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Runtime used:	1.008.000_151 (64-bit)
+Main class:	javafxtableviewaddrows.JavaFXTableViewAddRows
+Add classpath:	lib\sqlite-jdbc-3.30.1.jar
+Add classpath:	bin\lib\SparseBitSet-1.2.jar
+Add classpath:	lib\activation-1.1.1.jar
+Add classpath:	lib\commons-codec-1.13.jar
+Add classpath:	lib\commons-collections4-4.4.jar
+Add classpath:	lib\commons-compress-1.19.jar
+Add classpath:	lib\commons-logging-1.2.jar
+Add classpath:	lib\commons-math3-3.6.1.jar
+Add classpath:	lib\curvesapi-1.06.jar
+Add classpath:	lib\jaxb-api-2.3.1.jar
+Add classpath:	lib\jaxb-core-2.3.0.1.jar
+Add classpath:	lib\jaxb-impl-2.3.2.jar
+Add classpath:	lib\junit-4.12.jar
+Add classpath:	lib\log4j-1.2.17.jar
+Add classpath:	lib\poi-4.1.2.jar
+Add classpath:	lib\poi-examples-4.1.2.jar
+Add classpath:	lib\poi-excelant-4.1.2.jar
+Add classpath:	lib\poi-ooxml-4.1.2.jar
+Add classpath:	lib\poi-ooxml-schemas-4.1.2.jar
+Add classpath:	lib\poi-scratchpad-4.1.2.jar
+Add classpath:	lib\xmlbeans-3.1.0.jar
+Launcher:	C:\Program Files\Java\jre1.8.0_151\bin\javaw.exe
+Launcher args:	-classpath "D:\adatok\progatozas\java\TableViewWithFilterJavaFX\TableViewWithFilterJavaFX.exe;lib\sqlite-jdbc-3.30.1.jar;bin\lib\SparseBitSet-1.2.jar;lib\activation-1.1.1.jar;lib\commons-codec-1.13.jar;lib\commons-collections4-4.4.jar;lib\commons-compress-1.19.jar;lib\commons-logging-1.2.jar;lib\commons-math3-3.6.1.jar;lib\curvesapi-1.06.jar;lib\jaxb-api-2.3.1.jar;lib\jaxb-core-2.3.0.1.jar;lib\jaxb-impl-2.3.2.jar;lib\junit-4.12.jar;lib\log4j-1.2.17.jar;lib\poi-4.1.2.jar;lib\poi-examples-4.1.2.jar;lib\poi-excelant-4.1.2.jar;lib\poi-ooxml-4.1.2.jar;lib\poi-ooxml-schemas-4.1.2.jar;lib\poi-scratchpad-4.1.2.jar;lib\xmlbeans-3.1.0.jar" javafxtableviewaddrows.JavaFXTableViewAddRows
+Args length:	683/32768 chars
+Exit code:	0
+
+
+Version:	3.12
+CmdLine:	D:\adatok\progatozas\java\TableViewWithFilterJavaFX\TableViewWithFilterJavaFX.exe --l4j-debug
+WOW64:		yes
+Working dir:	D:\adatok\progatozas\java\TableViewWithFilterJavaFX\.
+Java min ver:	1.000.001
+Java max ver:	
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files\Java\jre1.8.0_151\bin\javaw.exe (OK)
+Match:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_151
+Check launcher:	C:\Program Files\Java\jre1.8.0_151\bin\javaw.exe (OK)
+Match:		1.008.000_151
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8
+Ignore:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_101
+Ignore:		1.008.000_101
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_151
+Ignore:		1.008.000_151
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Runtime used:	1.008.000_151 (64-bit)
+Main class:	javafxtableviewaddrows.JavaFXTableViewAddRows
+Add classpath:	lib\sqlite-jdbc-3.30.1.jar
+Add classpath:	bin\lib\SparseBitSet-1.2.jar
+Add classpath:	lib\activation-1.1.1.jar
+Add classpath:	lib\commons-codec-1.13.jar
+Add classpath:	lib\commons-collections4-4.4.jar
+Add classpath:	lib\commons-compress-1.19.jar
+Add classpath:	lib\commons-logging-1.2.jar
+Add classpath:	lib\commons-math3-3.6.1.jar
+Add classpath:	lib\curvesapi-1.06.jar
+Add classpath:	lib\jaxb-api-2.3.1.jar
+Add classpath:	lib\jaxb-core-2.3.0.1.jar
+Add classpath:	lib\jaxb-impl-2.3.2.jar
+Add classpath:	lib\junit-4.12.jar
+Add classpath:	lib\log4j-1.2.17.jar
+Add classpath:	lib\poi-4.1.2.jar
+Add classpath:	lib\poi-examples-4.1.2.jar
+Add classpath:	lib\poi-excelant-4.1.2.jar
+Add classpath:	lib\poi-ooxml-4.1.2.jar
+Add classpath:	lib\poi-ooxml-schemas-4.1.2.jar
+Add classpath:	lib\poi-scratchpad-4.1.2.jar
+Add classpath:	lib\xmlbeans-3.1.0.jar
+Launcher:	C:\Program Files\Java\jre1.8.0_151\bin\javaw.exe
+Launcher args:	-classpath "D:\adatok\progatozas\java\TableViewWithFilterJavaFX\TableViewWithFilterJavaFX.exe;lib\sqlite-jdbc-3.30.1.jar;bin\lib\SparseBitSet-1.2.jar;lib\activation-1.1.1.jar;lib\commons-codec-1.13.jar;lib\commons-collections4-4.4.jar;lib\commons-compress-1.19.jar;lib\commons-logging-1.2.jar;lib\commons-math3-3.6.1.jar;lib\curvesapi-1.06.jar;lib\jaxb-api-2.3.1.jar;lib\jaxb-core-2.3.0.1.jar;lib\jaxb-impl-2.3.2.jar;lib\junit-4.12.jar;lib\log4j-1.2.17.jar;lib\poi-4.1.2.jar;lib\poi-examples-4.1.2.jar;lib\poi-excelant-4.1.2.jar;lib\poi-ooxml-4.1.2.jar;lib\poi-ooxml-schemas-4.1.2.jar;lib\poi-scratchpad-4.1.2.jar;lib\xmlbeans-3.1.0.jar" javafxtableviewaddrows.JavaFXTableViewAddRows
+Args length:	683/32768 chars
+Exit code:	0
+
+
+Version:	3.12
+CmdLine:	D:\adatok\progatozas\java\TableViewWithFilterJavaFX\TableViewWithFilterJavaFX.exe --l4j-debug
+WOW64:		yes
+Working dir:	D:\adatok\progatozas\java\TableViewWithFilterJavaFX\.
+Java min ver:	1.000.001
+Java max ver:	
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files\Java\jre1.8.0_151\bin\javaw.exe (OK)
+Match:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_151
+Check launcher:	C:\Program Files\Java\jre1.8.0_151\bin\javaw.exe (OK)
+Match:		1.008.000_151
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8
+Ignore:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_101
+Ignore:		1.008.000_101
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_151
+Ignore:		1.008.000_151
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Runtime used:	1.008.000_151 (64-bit)
+Main class:	javafxtableviewaddrows.JavaFXTableViewAddRows
+Add classpath:	lib\sqlite-jdbc-3.30.1.jar
+Add classpath:	bin\lib\SparseBitSet-1.2.jar
+Add classpath:	lib\activation-1.1.1.jar
+Add classpath:	lib\commons-codec-1.13.jar
+Add classpath:	lib\commons-collections4-4.4.jar
+Add classpath:	lib\commons-compress-1.19.jar
+Add classpath:	lib\commons-logging-1.2.jar
+Add classpath:	lib\commons-math3-3.6.1.jar
+Add classpath:	lib\curvesapi-1.06.jar
+Add classpath:	lib\jaxb-api-2.3.1.jar
+Add classpath:	lib\jaxb-core-2.3.0.1.jar
+Add classpath:	lib\jaxb-impl-2.3.2.jar
+Add classpath:	lib\junit-4.12.jar
+Add classpath:	lib\log4j-1.2.17.jar
+Add classpath:	lib\poi-4.1.2.jar
+Add classpath:	lib\poi-examples-4.1.2.jar
+Add classpath:	lib\poi-excelant-4.1.2.jar
+Add classpath:	lib\poi-ooxml-4.1.2.jar
+Add classpath:	lib\poi-ooxml-schemas-4.1.2.jar
+Add classpath:	lib\poi-scratchpad-4.1.2.jar
+Add classpath:	lib\xmlbeans-3.1.0.jar
+Launcher:	C:\Program Files\Java\jre1.8.0_151\bin\javaw.exe
+Launcher args:	-classpath "D:\adatok\progatozas\java\TableViewWithFilterJavaFX\TableViewWithFilterJavaFX.exe;lib\sqlite-jdbc-3.30.1.jar;bin\lib\SparseBitSet-1.2.jar;lib\activation-1.1.1.jar;lib\commons-codec-1.13.jar;lib\commons-collections4-4.4.jar;lib\commons-compress-1.19.jar;lib\commons-logging-1.2.jar;lib\commons-math3-3.6.1.jar;lib\curvesapi-1.06.jar;lib\jaxb-api-2.3.1.jar;lib\jaxb-core-2.3.0.1.jar;lib\jaxb-impl-2.3.2.jar;lib\junit-4.12.jar;lib\log4j-1.2.17.jar;lib\poi-4.1.2.jar;lib\poi-examples-4.1.2.jar;lib\poi-excelant-4.1.2.jar;lib\poi-ooxml-4.1.2.jar;lib\poi-ooxml-schemas-4.1.2.jar;lib\poi-scratchpad-4.1.2.jar;lib\xmlbeans-3.1.0.jar" javafxtableviewaddrows.JavaFXTableViewAddRows
+Args length:	683/32768 chars
+Exit code:	0
+
+
+Version:	3.12
+CmdLine:	D:\adatok\progatozas\java\TableViewWithFilterJavaFX\TableViewWithFilterJavaFX.exe --l4j-debug
+WOW64:		yes
+Working dir:	D:\adatok\progatozas\java\TableViewWithFilterJavaFX\.
+Java min ver:	1.000.001
+Java max ver:	
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files\Java\jre1.8.0_151\bin\javaw.exe (OK)
+Match:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_151
+Check launcher:	C:\Program Files\Java\jre1.8.0_151\bin\javaw.exe (OK)
+Match:		1.008.000_151
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8
+Ignore:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_101
+Ignore:		1.008.000_101
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_151
+Ignore:		1.008.000_151
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Runtime used:	1.008.000_151 (64-bit)
+Main class:	javafxtableviewaddrows.JavaFXTableViewAddRows
+Add classpath:	lib\sqlite-jdbc-3.30.1.jar
+Add classpath:	bin\lib\SparseBitSet-1.2.jar
+Add classpath:	lib\activation-1.1.1.jar
+Add classpath:	lib\commons-codec-1.13.jar
+Add classpath:	lib\commons-collections4-4.4.jar
+Add classpath:	lib\commons-compress-1.19.jar
+Add classpath:	lib\commons-logging-1.2.jar
+Add classpath:	lib\commons-math3-3.6.1.jar
+Add classpath:	lib\curvesapi-1.06.jar
+Add classpath:	lib\jaxb-api-2.3.1.jar
+Add classpath:	lib\jaxb-core-2.3.0.1.jar
+Add classpath:	lib\jaxb-impl-2.3.2.jar
+Add classpath:	lib\junit-4.12.jar
+Add classpath:	lib\log4j-1.2.17.jar
+Add classpath:	lib\poi-4.1.2.jar
+Add classpath:	lib\poi-examples-4.1.2.jar
+Add classpath:	lib\poi-excelant-4.1.2.jar
+Add classpath:	lib\poi-ooxml-4.1.2.jar
+Add classpath:	lib\poi-ooxml-schemas-4.1.2.jar
+Add classpath:	lib\poi-scratchpad-4.1.2.jar
+Add classpath:	lib\xmlbeans-3.1.0.jar
+Launcher:	C:\Program Files\Java\jre1.8.0_151\bin\javaw.exe
+Launcher args:	-classpath "D:\adatok\progatozas\java\TableViewWithFilterJavaFX\TableViewWithFilterJavaFX.exe;lib\sqlite-jdbc-3.30.1.jar;bin\lib\SparseBitSet-1.2.jar;lib\activation-1.1.1.jar;lib\commons-codec-1.13.jar;lib\commons-collections4-4.4.jar;lib\commons-compress-1.19.jar;lib\commons-logging-1.2.jar;lib\commons-math3-3.6.1.jar;lib\curvesapi-1.06.jar;lib\jaxb-api-2.3.1.jar;lib\jaxb-core-2.3.0.1.jar;lib\jaxb-impl-2.3.2.jar;lib\junit-4.12.jar;lib\log4j-1.2.17.jar;lib\poi-4.1.2.jar;lib\poi-examples-4.1.2.jar;lib\poi-excelant-4.1.2.jar;lib\poi-ooxml-4.1.2.jar;lib\poi-ooxml-schemas-4.1.2.jar;lib\poi-scratchpad-4.1.2.jar;lib\xmlbeans-3.1.0.jar" javafxtableviewaddrows.JavaFXTableViewAddRows
+Args length:	683/32768 chars
+Exit code:	0
+
+
+Version:	3.12
+CmdLine:	D:\adatok\progatozas\java\TableViewWithFilterJavaFX\TableViewWithFilterJavaFX.exe --l4j-debug
+WOW64:		yes
+Working dir:	D:\adatok\progatozas\java\TableViewWithFilterJavaFX\.
+Java min ver:	1.000.001
+Java max ver:	
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files\Java\jre1.8.0_151\bin\javaw.exe (OK)
+Match:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_151
+Check launcher:	C:\Program Files\Java\jre1.8.0_151\bin\javaw.exe (OK)
+Match:		1.008.000_151
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8
+Ignore:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_101
+Ignore:		1.008.000_101
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_151
+Ignore:		1.008.000_151
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Runtime used:	1.008.000_151 (64-bit)
+Main class:	javafxtableviewaddrows.JavaFXTableViewAddRows
+Add classpath:	dist\lib\sqlite-jdbc-3.30.1.jar
+Add classpath:	dist\lib\SparseBitSet-1.2.jar
+Add classpath:	lib\activation-1.1.1.jar
+Add classpath:	lib\commons-codec-1.13.jar
+Add classpath:	lib\commons-collections4-4.4.jar
+Add classpath:	lib\commons-compress-1.19.jar
+Add classpath:	lib\commons-logging-1.2.jar
+Add classpath:	lib\commons-math3-3.6.1.jar
+Add classpath:	lib\curvesapi-1.06.jar
+Add classpath:	lib\jaxb-api-2.3.1.jar
+Add classpath:	lib\jaxb-core-2.3.0.1.jar
+Add classpath:	lib\jaxb-impl-2.3.2.jar
+Add classpath:	lib\junit-4.12.jar
+Add classpath:	lib\log4j-1.2.17.jar
+Add classpath:	lib\poi-4.1.2.jar
+Add classpath:	lib\poi-examples-4.1.2.jar
+Add classpath:	lib\poi-excelant-4.1.2.jar
+Add classpath:	lib\poi-ooxml-4.1.2.jar
+Add classpath:	lib\poi-ooxml-schemas-4.1.2.jar
+Add classpath:	lib\poi-scratchpad-4.1.2.jar
+Add classpath:	lib\xmlbeans-3.1.0.jar
+Launcher:	C:\Program Files\Java\jre1.8.0_151\bin\javaw.exe
+Launcher args:	-classpath "D:\adatok\progatozas\java\TableViewWithFilterJavaFX\TableViewWithFilterJavaFX.exe;dist\lib\sqlite-jdbc-3.30.1.jar;dist\lib\SparseBitSet-1.2.jar;lib\activation-1.1.1.jar;lib\commons-codec-1.13.jar;lib\commons-collections4-4.4.jar;lib\commons-compress-1.19.jar;lib\commons-logging-1.2.jar;lib\commons-math3-3.6.1.jar;lib\curvesapi-1.06.jar;lib\jaxb-api-2.3.1.jar;lib\jaxb-core-2.3.0.1.jar;lib\jaxb-impl-2.3.2.jar;lib\junit-4.12.jar;lib\log4j-1.2.17.jar;lib\poi-4.1.2.jar;lib\poi-examples-4.1.2.jar;lib\poi-excelant-4.1.2.jar;lib\poi-ooxml-4.1.2.jar;lib\poi-ooxml-schemas-4.1.2.jar;lib\poi-scratchpad-4.1.2.jar;lib\xmlbeans-3.1.0.jar" javafxtableviewaddrows.JavaFXTableViewAddRows
+Args length:	689/32768 chars
+Exit code:	0
