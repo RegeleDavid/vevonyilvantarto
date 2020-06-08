@@ -165,6 +165,7 @@ public class FXMLDocumentController implements Initializable {
         LogEmailNev.setCellValueFactory(new PropertyValueFactory<>("nev")); 
         LogEmailDatum.setCellValueFactory(new PropertyValueFactory<>("datum")); 
         LogEmailEmail.setCellValueFactory(new PropertyValueFactory<>("email")); 
+        dataList_log_email.clear();
         try {
             ResultSet rs=new select().select_email();
             while (rs.next()) {                
