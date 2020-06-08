@@ -35,6 +35,7 @@ public class Create extends connectoin{
         sql_create("CREATE TABLE termekek_adatai ( `id` INTEGER PRIMARY KEY AUTOINCREMENT , `user_id` INT(100) NOT NULL , `datum` DATE NOT NULL , `kovetkezo_hivas` DATE NOT NULL ,`targy` VARCHAR(255) NOT NULL , `megyjegyzes` VARCHAR(500) NOT NULL ) ",false);
         sql_create("CREATE TABLE termek_neve ( `id` INT NULL , `termek_id` INT(100) NOT NULL , `nev` VARCHAR(100) NOT NULL )", false);
         sql_create("CREATE TABLE conf ( `neve` VARCHAR(500) NOT NULL , `szoveg` VARCHAR(500) NOT NULL )", false);
+        sql_create("CREATE TABLE log_email ( `id` INTEGER PRIMARY KEY AUTOINCREMENT , `datetime` text, `nev` INT(100) NOT NULL , `Email` VARCHAR(100) NOT NULL)", false);
     }
     
     

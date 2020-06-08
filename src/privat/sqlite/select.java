@@ -56,4 +56,11 @@ public class select extends connectoin{
         ResultSet rs    = stmt.executeQuery("SELECT * FROM conf where neve='letoltes'");
         return rs; 
     }
+    
+    public ResultSet select_email() throws Exception{
+        Statement stmt  = conn.createStatement();
+        ResultSet rs    = stmt.executeQuery("SELECT * FROM log_email");
+        //stmt.close();
+        return rs; 
+    }
 }

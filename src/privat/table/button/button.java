@@ -9,6 +9,7 @@ package privat.table.button;
 import java.io.File;
 import java.io.IOException;
 import java.net.URISyntaxException;
+import java.sql.ResultSet;
 import java.time.LocalDate;
 import java.time.Month;
 import java.util.Arrays;
@@ -31,6 +32,8 @@ import javax.swing.Icon;
 import javax.swing.filechooser.FileSystemView;
 import mail.pl.mail;
 import static mail.pl.mail.mailto;
+import privat.insert.log_inser;
+import privat.sqlite.select;
 
 /**
  *
@@ -166,11 +169,15 @@ public class button {
                         btn.setOnAction((ActionEvent event) -> {
                             user_data data = getTableView().getItems().get(getIndex());
                             try {
+                                new log_inser(data.getNev(), data.getEmail()).insert();
+                                
                                 mailto(Arrays.asList(data.getEmail()), "","");
                             } catch (IOException ex) {
                                 Logger.getLogger(button.class.getName()).log(Level.SEVERE, null, ex);
                             } catch (URISyntaxException ex) {
                                 Logger.getLogger(button.class.getName()).log(Level.SEVERE, null, ex);
+                            }catch(Exception e){
+                                System.err.println(e.getMessage());
                             }
                             
                         });

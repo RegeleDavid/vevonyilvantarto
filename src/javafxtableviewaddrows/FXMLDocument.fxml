@@ -32,6 +32,7 @@
                   <Menu mnemonicParsing="false" text="Beállítás">
                      <items>
                         <MenuItem mnemonicParsing="false" onAction="#ButtonBeallitas" text="Letöltés " />
+                        <MenuItem mnemonicParsing="false" onAction="#ButtonLog" text="Log" />
                      </items>
                   </Menu>
               </menus>
@@ -379,7 +380,7 @@
                         </AnchorPane>
                      </children>
                   </AnchorPane>
-                  <AnchorPane fx:id="anc_selct_user" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <AnchorPane fx:id="anc_selct_user" prefHeight="200.0" prefWidth="200.0" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <children>
                         <Pane fx:id="panel_user_select" prefHeight="476.0" prefWidth="725.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                            <children>
@@ -571,6 +572,35 @@
                               </AnchorPane>
                            </children>
                         </VBox>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="anc_log" layoutY="8.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <TabPane layoutX="14.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <tabs>
+                            <Tab text="E-mail">
+                              <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <TableView fx:id="LogEmailTable" layoutX="174.0" layoutY="65.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                            <columns>
+                                              <TableColumn fx:id="LogEmailId" prefWidth="75.0" text="Id" />
+                                              <TableColumn fx:id="LogEmailDatum" maxWidth="1.7976931348623157E308" minWidth="-Infinity" prefWidth="200.0" text="Dátum" />
+                                                <TableColumn fx:id="LogEmailNev" prefWidth="75.0" text="Név" />
+                                                <TableColumn fx:id="LogEmailEmail" prefWidth="75.0" text="E-mail" />
+                                            </columns>
+                                          </TableView>
+                                       </children>
+                                    </AnchorPane>
+                              </content>
+                            </Tab>
+                            <Tab text="Új személy">
+                              <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                              </content>
+                            </Tab>
+                          </tabs>
+                        </TabPane>
                      </children>
                   </AnchorPane>
                </children>

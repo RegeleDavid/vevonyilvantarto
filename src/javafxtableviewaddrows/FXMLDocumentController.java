@@ -61,6 +61,7 @@ import javafx.scene.shape.Circle;
 import javafx.stage.DirectoryChooser;
 import javafx.stage.FileChooser;
 import privat.alert.alert;
+import privat.datas.log_email;
 import privat.datas.product_data;
 import privat.mkdir.mkdir_folder;
 import privat.table.builder.produst_bulider;
@@ -98,7 +99,23 @@ public class FXMLDocumentController implements Initializable {
     @FXML private Pane panel_user_select;
     @FXML private AnchorPane anc_selct_user, anc_add_user, anc_add_term,anc_user_edit, anc_term_select, anc_beallitas;
     @FXML private VBox vbox, term_select_most;
-    
+    @FXML
+    private AnchorPane anc_log;
+       @FXML
+    private TableColumn<log_email, String> LogEmailDatum;
+
+    @FXML
+    private TableColumn<log_email, String> LogEmailNev;
+
+    @FXML
+    private TableColumn<log_email, Integer> LogEmailId;
+
+    @FXML
+    private TableView<log_email> LogEmailTable;
+
+    @FXML
+    private TableColumn<log_email, String> LogEmailEmail;
+
    ;
     
     private  TextField[] newField=new TextField[10];
@@ -107,7 +124,8 @@ public class FXMLDocumentController implements Initializable {
     //observalble list to store data
     private final ObservableList<user_data> dataList = FXCollections.observableArrayList();
     private ObservableList<product_data> dataList_tem = FXCollections.observableArrayList();
-    
+    private ObservableList<log_email> dataList_log_email = FXCollections.observableArrayList();
+
     private  String letoltes=new mkdir_folder().dectopnew_mkdir_new_folder("vevonyilvantarto");
     
     
@@ -137,7 +155,26 @@ public class FXMLDocumentController implements Initializable {
         visible_not();
         anc_selct_user.setVisible(true);
     }
-
+    @FXML
+    private void ButtonLog(ActionEvent event) {
+        System.out.println("log");
+        visible_not();
+        LogEmailId.setCellValueFactory(new PropertyValueFactory<>("id"));
+        LogEmailNev.setCellValueFactory(new PropertyValueFactory<>("nev")); 
+        LogEmailDatum.setCellValueFactory(new PropertyValueFactory<>("datum")); 
+        LogEmailEmail.setCellValueFactory(new PropertyValueFactory<>("email")); 
+        try {
+            ResultSet rs=new select().select_email();
+            while (rs.next()) {                
+                dataList_log_email.add(new log_email(rs.getInt("id"), rs.getString("nev"), rs.getString("Email"),rs.getString("datetime")));
+            }
+            rs.close();
+            LogEmailTable.setItems(dataList_log_email);
+        } catch (Exception e) {
+            System.err.println(e.getMessage());
+        }
+        anc_log.setVisible(true);
+    }
     @FXML
     private void ButtonUserEditEditable(ActionEvent event) throws Exception {
         editeable_write();
@@ -269,6 +306,7 @@ public class FXMLDocumentController implements Initializable {
         anc_user_edit.setVisible(false);
         anc_term_select.setVisible(false);
         anc_beallitas.setVisible(false);
+        anc_log.setVisible(false);
     }
     
     void  db() throws Exception{

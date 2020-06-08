@@ -147,4 +147,15 @@ public class Insert extends connectoin{
             new alert().db(e);
         }
     }
+    
+    public void log_email_insert(String nev, String email){
+        try {
+            PreparedStatement stmt=conn.prepareStatement("INSERT INTO `log_email` (`id`, `datetime`, `nev`, `Email`) VALUES (null,datetime('now'), ?, ?)");
+            stmt.setString(1, nev);
+            stmt.setString(2, email);            
+            stmt.executeUpdate();
+        } catch (Exception e) {
+            new alert().db(e);
+        }
+    }
 }
