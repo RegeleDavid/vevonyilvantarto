@@ -67,6 +67,8 @@ import privat.mkdir.mkdir_folder;
 import privat.table.builder.produst_bulider;
 import privat.table.table_to_obj_matrx.user_table;
 import privat.vbox.right_vbox;
+import privat.vissza_allitas.vissza_allitas;
+import privat.vissza_allitas.vissza_allitas_edit;
 /**
  *
  * @author Cool IT Help
@@ -74,7 +76,7 @@ import privat.vbox.right_vbox;
 public class FXMLDocumentController implements Initializable {
     
     @FXML private Label label, add_term_nev, add_term_id;
-    @FXML private TextField filterField,filterField1,
+    @FXML public TextField filterField,filterField1,
             //user add
             nev_user_insert ,teloszam_user_insert, email_user_insert 
             ,cim_user_insert, 
@@ -192,6 +194,7 @@ public class FXMLDocumentController implements Initializable {
     @FXML
     private void ButtonUserAbb(ActionEvent event) throws Exception {
         visible_not();
+        new vissza_allitas().user_add(nev_user_insert, email_user_insert,  cim_user_insert,   tars_user_insert,  teloszam_user_insert, szuletesi_ido_user_insert, elsodatum_user_inserts,targy_user_insert);
         anc_add_user.setVisible(true);   
         
     }
@@ -218,6 +221,7 @@ public class FXMLDocumentController implements Initializable {
         new term_inser(add_term_datum, add_term_mikor_hivjam, add_term_targy, add_term_id, add_term_megyjegyzes, input).insert();
         array_clear();     
         //ResultSet rs=new select().select_term_name();
+        
         
         right();
     }
@@ -259,6 +263,8 @@ public class FXMLDocumentController implements Initializable {
         u_u.insert();
         System.out.println("qwe");
         editeable_write_not();
+        //new vissza_allitas_edit().user_add(nev_user_insert1, email_user_insert1,  cim_user_insert1,   tars_user_insert1,  teloszam_user_insert1, szuletesi_ido_user_insert1, elsodatum_user_inserts1,targy_user_insert1);
+        new vissza_allitas_edit().user_add(nev_user_insert1, email_user_insert1, cim_user_insert1, tars_user_insert1, teloszam_user_insert1, szuletesi_ido_user_insert1, elsodatum_user_inserts1, targy_user_insert1);
         select_user();
         
                
@@ -396,7 +402,7 @@ public class FXMLDocumentController implements Initializable {
         teloszam_user_insert1.setOpacity(1);
         email_user_insert1.setOpacity(1);
         cim_user_insert1.setOpacity(1);
-        targy_user_insert1.setOpacity(1);
+        tars_user_insert1.setOpacity(1);
         targy_user_insert1.setOpacity(1);
         elsodatum_user_inserts1.setOpacity(1);
         szuletesi_ido_user_insert1.setOpacity(1);

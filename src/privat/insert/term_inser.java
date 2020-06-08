@@ -18,6 +18,7 @@ import privat.InterFace.db_insert;
 import privat.alert.alert;
 import privat.sqlite.Insert;
 import privat.sqlite.select;
+import privat.vissza_allitas.vissza_allitas_term;
 
 /**
  *
@@ -71,10 +72,8 @@ import privat.sqlite.select;
     }
     
     private  void not_settext(){
-        add_term_datum.setValue(null);
-        add_term_mikor_hivjam.setValue(null);
-        targy.setText("");
-        megyjegyzes.setText("");
+        add_term_datum.setValue(LocalDate.now());
+        new vissza_allitas_term().term(add_term_mikor_hivjam, targy, targy);
         
     }
     
