@@ -158,7 +158,7 @@
                                                                         <Font size="24.0" />
                                                                      </font>
                                                                   </Label>
-                                                                  <DatePicker fx:id="szuletesi_ido_user_insert1" editable="false" layoutX="2.0" layoutY="59.0" prefHeight="38.0" prefWidth="429.0" promptText="Dátum..." AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+                                                                  <DatePicker fx:id="szuletesi_ido_user_insert1" layoutX="2.0" layoutY="59.0" prefHeight="38.0" prefWidth="429.0" promptText="Dátum..." AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
                                                                </children>
                                                             </AnchorPane>
                                                             <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
@@ -182,7 +182,7 @@
                                                                         <Font size="24.0" />
                                                                      </font>
                                                                   </Label>
-                                                                  <DatePicker fx:id="elsodatum_user_inserts1" editable="false" layoutX="74.0" layoutY="59.0" prefHeight="38.0" prefWidth="429.0" promptText="date" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+                                                                  <DatePicker fx:id="elsodatum_user_inserts1" layoutX="74.0" layoutY="59.0" prefHeight="38.0" prefWidth="429.0" promptText="date" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
                                                                </children>
                                                             </AnchorPane>
                                                             <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="3">
@@ -434,7 +434,7 @@
                         </TableView>
                      </children>
                   </AnchorPane>
-                  <AnchorPane fx:id="anc_add_user" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <AnchorPane fx:id="anc_add_user" prefHeight="200.0" prefWidth="200.0" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <children>
                         <GridPane layoutX="166.0" layoutY="87.0" prefHeight="398.0" prefWidth="858.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="85.0">
                           <columnConstraints>
@@ -497,7 +497,7 @@
                                           <Font size="24.0" />
                                        </font>
                                     </Label>
-                                    <DatePicker fx:id="szuletesi_ido_user_insert" editable="false" layoutX="2.0" layoutY="59.0" prefHeight="38.0" prefWidth="429.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+                                    <DatePicker fx:id="szuletesi_ido_user_insert" layoutX="2.0" layoutY="59.0" prefHeight="38.0" prefWidth="429.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
                                  </children>
                               </AnchorPane>
                               <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
@@ -521,7 +521,7 @@
                                           <Font size="24.0" />
                                        </font>
                                     </Label>
-                                    <DatePicker fx:id="elsodatum_user_inserts" editable="false" layoutX="74.0" layoutY="59.0" prefHeight="38.0" prefWidth="429.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+                                    <DatePicker fx:id="elsodatum_user_inserts" layoutX="74.0" layoutY="59.0" prefHeight="38.0" prefWidth="429.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
                                  </children>
                               </AnchorPane>
                               <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="3">
