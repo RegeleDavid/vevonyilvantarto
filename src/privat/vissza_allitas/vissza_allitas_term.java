@@ -24,7 +24,7 @@ public class vissza_allitas_term implements alapalapot_interface{
 
     @Override
     public void alapallapot(TextField a) {
-        a.setText(null);
+        a.setText("");
         a.setStyle(null);
     }
 

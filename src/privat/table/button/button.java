@@ -34,6 +34,7 @@ import mail.pl.mail;
 import static mail.pl.mail.mailto;
 import privat.insert.log_inser;
 import privat.sqlite.select;
+import privat.vissza_allitas.vissza_allitas_edit;
 
 /**
  *
@@ -71,6 +72,9 @@ public class button {
                             cim_user_insert1.setOpacity(0.3);
                             tars_user_insert1.setOpacity(0.3);
                             targy_user_insert1.setOpacity(0.3);
+                            
+                            new vissza_allitas_edit().user_add(nev, email_user_insert1, cim_user_insert1, tars_user_insert1, teloszam_user_insert1, szuletesi_ido_user_insert1, elsodatum_user_inserts1, targy_user_insert1);
+
                             
                             String[] a;
                             try {

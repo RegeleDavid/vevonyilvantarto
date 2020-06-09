@@ -33,7 +33,7 @@ public class vissza_allitas implements alapalapot_interface {
     public void alapallapot(TextField a){
 //        System.out.println(a.toString());
         a.setStyle(null);
-        a.setText(null);
+        a.setText("");
     }
     @Override
     public void alapallapot(TextField a, String szo){

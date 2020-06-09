@@ -46,7 +46,9 @@ public class user_update extends Empty implements db_insert,Empty_interface{
         empty(elso_talalkozo);
     }
 
-    
+    public boolean  getTo_be_install(){
+        return this.to_be_inser;
+    }
 
     @Override
     public void insert() {

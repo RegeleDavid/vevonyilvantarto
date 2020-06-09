@@ -265,8 +265,12 @@ public class FXMLDocumentController implements Initializable {
         System.out.println("qwe");
         editeable_write_not();
         //new vissza_allitas_edit().user_add(nev_user_insert1, email_user_insert1,  cim_user_insert1,   tars_user_insert1,  teloszam_user_insert1, szuletesi_ido_user_insert1, elsodatum_user_inserts1,targy_user_insert1);
-        new vissza_allitas_edit().user_add(nev_user_insert1, email_user_insert1, cim_user_insert1, tars_user_insert1, teloszam_user_insert1, szuletesi_ido_user_insert1, elsodatum_user_inserts1, targy_user_insert1);
-        select_user();
+        
+        if(u_u.getTo_be_install()){
+            new vissza_allitas_edit().user_add(nev_user_insert1, email_user_insert1, cim_user_insert1, tars_user_insert1, teloszam_user_insert1, szuletesi_ido_user_insert1, elsodatum_user_inserts1, targy_user_insert1);
+            select_user();
+        }
+        
         
                
     }

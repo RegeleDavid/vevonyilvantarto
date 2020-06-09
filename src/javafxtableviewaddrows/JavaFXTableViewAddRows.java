@@ -35,7 +35,7 @@ public class JavaFXTableViewAddRows extends Application {
         double height = screenSize.getHeight()-50;
         Scene scene = new Scene(root/*,(int)width, (int)height*/);
         
-        stage.getIcons().add(new Image("file:img/epetr.png"));
+        stage.getIcons().add(new Image("file:img/elitnyit.jpg"));
         stage.setTitle("Vevőnyilvántartó");
         
        
