@@ -13,7 +13,7 @@ import privat.alert.alert;
  *
  * @author Dávid
  */
-public class Delete extends connectoin{
+public class Delete extends Connectoin{
 
     public Delete() throws ClassNotFoundException, SQLException {
         super();

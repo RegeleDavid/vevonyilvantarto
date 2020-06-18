@@ -8,13 +8,13 @@ package privat.sqlite;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import privat.sqlite.connectoin;
+import privat.sqlite.Connectoin;
 
 /**
  *
  * @author Dávid
  */
-public class select extends connectoin{
+public class select extends Connectoin{
 
     public select() throws ClassNotFoundException, SQLException {
         super();

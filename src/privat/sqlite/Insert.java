@@ -17,7 +17,7 @@ import privat.alert.alert;
  *
  * @author Dávid
  */
-public class Insert extends connectoin{
+public class Insert extends Connectoin{
     public int key;
 
     public Insert() throws ClassNotFoundException, SQLException {
