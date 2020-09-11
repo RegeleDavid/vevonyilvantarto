@@ -64,6 +64,7 @@ import privat.alert.alert;
 import privat.datas.log_email;
 import privat.datas.product_data;
 import privat.mkdir.mkdir_folder;
+import privat.systemtray.tray.tray_builder;
 import privat.table.builder.produst_bulider;
 import privat.table.table_to_obj_matrx.user_table;
 import privat.vbox.right_vbox;
@@ -296,7 +297,11 @@ public class FXMLDocumentController implements Initializable {
         img=new Image("file:img/back.png");
         vissza_img_1.setImage(img);
      
-        
+        try {
+            tray_builder.TrayBuild();
+        } catch (SQLException ex) {
+            Logger.getLogger(FXMLDocumentController.class.getName()).log(Level.SEVERE, null, ex);
+        }
         
     }
     void letoltes_select(){
